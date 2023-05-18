@@ -1,79 +1,64 @@
 #include<iostream>
-#include<queue>
-#include<algorithm>
-#include<climits>//for int max but working w/o that as well
+#include<vector>
 using namespace std;
-class Node{
-	public:
-		int data;
-		Node *left;
-		Node *right;
-		
-		Node(int d){
-			data =d;
-			left=right=NULL;
-		}
-};
 
-Node* buildTree(){//returns Node pointer like some func returns int, as unlike stack it doesnt have cmnd to get head directly
-	int d;
-	cin>>d;
-	if(d==-1){
-		return NULL;
-	}
-	Node* n = new Node(d);
-	n->left = buildTree();//tree will build in preorder
-	n->right = buildTree();
-	return n;
+void rotate(vector<vector<int>>& matrix) {
+     int row = matrix.size();
+     int n=row;
+     int start =0;
+     int end=row-1;
+     int mid = row/2;
+     cout<<"\nmid"<<mid;
+     vector<int> temp (n);
+     vector<int> temp2 (n);
+     while(mid>0){
+     	cout<<"\n for n="<<n<<endl;
+         for(int i=0;i<row;i++){
+             temp[i] = matrix[i][end];
+             cout<<"temp"<<i<<" :"<<temp[i];
+             matrix[i][end] = matrix[start][i];
+         }
+         cout<<endl;
+         for(int i=0;i<row;i++){
+             
+			 temp2[i]=matrix[end][row-i-1];
+			 cout<<"temp2"<<i<<" :"<<temp2[i];
+             matrix[end][row-i-1]=temp[i];
+         }
+         temp2[start]=temp[end];
+         cout<<endl;
+         for(int i=0;i<row;i++){
+             temp[i]=matrix[row-i-1][start];
+             cout<<"temp"<<i<<" :"<<temp[i];
+             matrix[row-i-1][start]=temp2[i];
+         }
+         temp[start] = temp2[end];
+         for(int i=0;i<row;i++){
+             matrix[start][i]=temp[i];
+         }
+         mid--;
+         start++;
+         end--;
+     }
+      
 }
 
-void printPreorder(Node *root){
-	if(root==NULL){
-		return;
-	}
-	cout<<root->data<<" ";
-	printPreorder(root->left);
-	printPreorder(root->right);
-}
-
-	int sumNumbersHelper(Node* root,vector<int> &arr){
-        arr.push_back(root->data);
-        cout<<"\ndata "<<root->data;
-        if(root->left==NULL and root->right==NULL){
-            int size = arr.size();
-            int temp = size-1;
-            int sum=0;
-            for(int i=0;i<size;i++){
-                sum+=(arr[i]*pow(10,temp));
-                temp--;
-                cout<<"\nsum at each step: "<<sum;
-            }
-            cout<<"\nsum at leaf "<<sum;
-            arr.pop_back();
-            return sum;
-        }
-        else{
-            int sum=0;
-            if(root->left!=NULL){
-                sum+=sumNumbersHelper(root->left,arr);
-                
-            }
-            if(root->right!=NULL){
-                sum+=sumNumbersHelper(root->right,arr);
-                
-            }
-            arr.pop_back();
-            return sum;
-        }
-        
-    }
-    int sumNumbers(Node* root) {
-        vector<int> arr;
-        return sumNumbersHelper(root,arr);
-    }
-    
 int main(){
-	Node* root =buildTree();
-	printPreorder(root);
-	cout<<endl<<sumNumbers(root);
+	//vector<vector<int>> arr = {{1,2,3},{4,5,6},{7,8,9}};
+	vector<vector<int>> arr = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+	for(int i=0;i<arr.size();i++){
+		for(int j=0;j<arr.size();j++){
+			cout<<arr[i][j]<<" ";
+		}
+		cout<<endl;
+	}
+	cout<<endl;
+	rotate(arr);
+	for(int i=0;i<arr.size();i++){
+		for(int j=0;j<arr.size();j++){
+			cout<<arr[i][j]<<" ";
+		}
+		cout<<endl;
+	}
 }
+
