@@ -3,12 +3,12 @@
 using namespace std;
 //bottom up
 int ninjaTraining(int n,vector<vector<int>> &points){
-	    vector<vector<int>> dp(n,vector<int>(n,-1)); 
+	    vector<vector<int>> dp(n,vector<int>(3,-1)); 
 		dp[0][0]=points[0][0];
 		dp[0][1]=points[0][1];
 		dp[0][2]=points[0][2];
 		for(int i=1;i<n;i++){
-			for(int j=0;j<n;j++){
+			for(int j=0;j<3;j++){
 				int sum1=-1;
 				int sum2=-1;
 				int sum3=-1;
