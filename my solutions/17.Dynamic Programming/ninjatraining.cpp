@@ -8,7 +8,7 @@ int ninjaTrainingHelper(int n,vector<vector<int>> &points,int selected,vector<ve
 	}
 	else{
 		if(dp[n][selected]!=-1){
-			cout<<"at n="<<n<<" and selected="<<selected<<" ans is="<<dp[n][selected];
+		
 			return dp[n][selected];
 		}
 		int sum1=-1;
@@ -23,24 +23,17 @@ int ninjaTrainingHelper(int n,vector<vector<int>> &points,int selected,vector<ve
 		if(selected!=3){
 			sum3=points[n-1][2]+ninjaTrainingHelper(n-1,points,3,dp);
 		}
-		cout<<endl<<"sum1="<<sum1<<"sum2="<<sum2<<"sum3="<<sum3;
+		
 		dp[n][selected]=max(sum1,max(sum2,sum3));
-		cout<<"\nat n="<<n<<" and selected="<<selected<<" ans is="<<dp[n][selected];
+		
 		return dp[n][selected];
 	}
 }
 
 int ninjaTraining(int n,vector<vector<int>> &points){
 	    vector<vector<int>> dp(n+1,vector<int>(n+1,-1)); 
-	    int val = ninjaTrainingHelper(n,points,0,dp);
-	    	cout<<endl;
-			for(int i=0;i<=n;i++){
-	    	for(int j=0;j<=n;j++){
-	    		cout<<dp[i][j]<<" ";
-			}
-			cout<<endl;
-		}
-		return val;
+		return ninjaTrainingHelper(n,points,0,dp);
+
 }
 
 int main(){
