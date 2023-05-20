@@ -1,0 +1,403 @@
+ALL DSA QUESTIONS AND CONCEPTS (343)
+1.	ARRAYS
+
+1.	Linear Search
+2.	Binary Search
+3.	Array reverse
+4.	Printing Pairs
+5.	Printing Subarrays
+6.	Subarray sum 1
+7.	Subarray sum 2 (prefix sum)
+8.	Subarray sum 3 (Kadane’s)
+9.	Vector intro and STL
+10.	Largest element
+11.	Max subarray sum
+12.	Lower bound
+13.	Sorted Pair sum
+14.	K-rotate
+15.	FizzBuzz 
+16.	Pairs
+17.	Triplets
+18.	Mountain
+19.	Longest Band
+20.	Rains
+21.	Subarray Sort
+22.	Minimum Swaps
+23.	Min Difference
+24.	Array Products
+25.	Busy Life
+26.	Vector: sorting cabs
+27.	Vector: Sort fruits
+28.	Vector: Rotate Image
+29.	Vector: Make zeroes
+
+2.	SORTING/SEARCHING (LIN BINARY) (Divide and conquer)
+
+1.	Bubble Sort
+2.	Optimised Bubble Sort
+3.	Insertion Sort
+4.	Selection Sort
+5.	Inbuilt Sort
+6.	Counting Sort
+7.	Sorting with Comparator
+8.	Sorting Cartesian Points
+9.	Chopsticks
+10.	Defense Kingdom
+11.	Merge Sort
+12.	Quick Sort
+13.	Inversion Count
+14.	Quick Select
+15.	Smallest String
+16.	Sparse Search
+17.	Staircase Search
+18.	ICPC standings
+19.	Juggling Balls
+20.	Sorting Subarray
+21.	Frequency Count 1
+22.	Frequency Count 2
+23.	Rotated arr Search
+24.	Finding Roots
+25.	Angry Birds
+26.	Min pairs
+27.	Game of Greed
+28.	Reading Books
+
+3.	CHAR ARR/ STRINGS
+
+1.	Using Cin.get()/cin.getline()
+2.	Digits and spaces
+3.	Shortest path
+4.	String copy, compare, concat
+5.	Largest String
+6.	Check Palindrome
+7.	String class
+8.	String compression
+9.	Run length encoding
+10.	Permutation
+11.	Remove duplicates
+12.	Vowel Find
+13.	Binary string to number
+14.	Searching inside string
+15.	Warmup:search all
+16.	Space20
+17.	Tokenisation (sstream)
+18.	Tokenisation (Strtok)
+19.	Design owner tokenizer
+20.	String key sort
+21.	Checksubset
+22.	Sort subsequences
+23.	Digital Clock
+24.	Biggest Number String
+25.	Run length encoding
+26.	Palindrome Break
+27.	String Normalisation
+
+4.	2D Arrays
+
+1.	Intro and basics
+2.	2d char arr
+3.	Spiral print
+4.	Wave print
+5.	Sorted array search
+6.	Mango trees
+7.	Pascal’s triangle
+8.	Submatrix sum
+
+5.	Pointers and dynamic Memory
+
+1.	Address of Operator
+2.	Pointers
+3.	Dereference operators
+4.	Reference Variables
+5.	Pass by reference – Reference variables
+6.	Pass by reference – pointers
+7.	Dynamic Memory Allocation
+8.	Using new and Delete
+9.	2d Dynamic Arr
+
+6.	Sliding Window
+
+1.	Intro
+2.	Housing (two pointers)
+3.	Unique Substr (hashing)
+4.	String Window
+5.	Smallest Distinct Window
+6.	Sliding window max
+7.	Count subarr with target sum
+
+7.	Bit Manipulation
+
+1.	Bitwise operators
+2.	Left shift and right shift
+3.	Odd even
+4.	Get ith bit
+5.	Set ith bit
+6.	Clear ith bit
+7.	Update ith bit
+8.	Clear last I bits
+9.	Clear range of Bits
+10.	Replace Bits
+11.	Two power
+12.	Count bits
+13.	Fast exponentiation
+14.	Make it binary
+15.	Xoring
+16.	Modulo Exponentiation
+17.	Earth levels
+18.	Subset sum queries
+
+8.	Recursion Basics and Backtracking
+
+1.	Intro
+2.	Factorial
+3.	Fibonacci series
+4.	Sorted array check
+5.	First occurrence
+6.	Last occurrence
+7.	All occurrence
+8.	Print Increasing numbers
+9.	Power func
+10.	Power func optimized
+11.	Bubble sort
+12.	Number spell
+13.	Tiling problem
+14.	Binary strings
+15.	Friends party
+16.	Ladders
+17.	Subset sum to X
+18.	Generate brackets
+19.	Smart keypad
+20.	N queen
+21.	N queen ways
+22.	Grid Ways
+23.	Sudoku
+24.	Modulo Exponentiation
+25.	Game of coins
+26.	Rat in a maze
+27.	Longest Possible route
+28.	Word break 
+29.	Unique subset
+30.	Word search
+
+9.	Space and time complexity analysis//done that course list till above
+
+1.	Experimental
+2.	Big O notation
+3.	Nested Loops
+4.	Loops example
+5.	Analysis: bubble sort, bin search, merge sort
+6.	Time complexity for recursive problems
+
+10.	Object Oriented Prog
+
+1.	Classes and objs
+2.	Getters and setters
+3.	Constructor/ obj initialization
+4.	Copy Constructor
+5.	Shallow and deep copy
+6.	Copy assignment operator
+7.	Destructor
+8.	Shopping Cart using OOPs
+
+11.	Linked List
+
+1.	LL intro
+2.	Push front
+3.	Push back
+4.	Print
+5.	Insert 
+6.	Insert in Middle
+7.	Searching
+8.	Recursive search
+9.	Deletion
+10.	Pop front
+11.	Delete tail
+12.	Reverse LL recursive
+13.	Reverse LL iterative
+14.	K-reverse LL
+15.	Merge two sorted LL
+16.	Runner technique to find middle
+17.	Kth last element
+18.	Alternate Merge
+19.	Bubble Sort on LL
+20.	Merge sort on LL
+21.	Detect cycle in LL
+
+12.	Stacks 
+
+1.	Stacks DS
+2.	Stacks implementation
+3.	Using LL, Vector, STL
+4.	Insert at bottom 
+5.	Reverse recursively
+6.	Stock span
+7.	Next greater Element
+8.	Duplicate parentheses
+9.	Balanced paranthesis
+10.	Redundant paranthesis
+11.	Max subarray(Sliding window + deque)
+12.	Simplify path
+13.	Max rectangular area in Histogram
+14.	Queue intro, implement
+15.	Using Circular Array
+16.	Queue STL
+17.	Stack using 2 queues
+18.	First non repeating letter
+19.	Interleave two halves of queue
+
+13.	Binary Tree
+
+1.	Intro
+2.	Build preorder
+3.	Preorder
+4.	Inorder
+5.	Postorder
+6.	Level order
+7.	Build levelorder
+8.	Height of the tree
+9.	Kth level
+10.	Sum of Nodes
+11.	Tree Diameter 1
+12.	Tree diameter 2
+13.	Min depth
+14.	Symmetric tree-1 
+15.	Symmetric tree-2 (using my approach: horizontal and vertical height)
+16.	Expression tree
+17.	Remove half nodes
+18.	Target Path sum
+19.	Replace with descendant sum
+20.	Height balanced tree(check)
+21.	Max susbset sum tree
+22.	Print at level K
+23.	Nodes at distance K
+24.	Vertical Order print // opposite of level order print
+25.	Left View (ankush bhaiya: Right view, top view)
+26.	Sibling Swap
+27. 	Sum root to leaf (LC medium- Gorseet)
+
+14.	BST
+
+1.	Intro
+2.	BST creation
+3.	Searching
+4.	Deletion
+5.	Print in Range
+6.	Root to leaf
+7.	Mirror a BST
+8.	isBST?
+9.	Delete in BST
+10.	Min height in bst
+11.	Closest in bst
+12.	Tree to LL
+13.	Inorder Successor
+14.	SpecialBSTs
+15.	LCA
+16.	Shortest tree path
+
+15.	Heaps/ Priority Queue
+
+1.	Intro
+2.	Heap vs other DS
+3.	Heap as CBT
+4.	As Arrays
+5.	Insertion
+6.	Remove min/max
+7.	Max product
+8.	STL
+9.	Nearby Cars
+10.	Reduced array size to half
+11.	Weakest Rows
+12.	Relative ranks
+13.	Sort using heaps
+14.	Merging ropes
+15.	Running median
+16.	Merge k sorted arrays
+
+16.	Hashing
+
+1.	Intro
+2.	Hash functions
+3.	Collision handling
+4.	Hashing Code -1 //setup
+5.	Hashing Code -2// Insertion
+6.	Hashing Code -3//rehashing
+7.	Testing 
+8.	Search
+9.	Erase
+10.	Operator Overloading
+11.	Unordered maps and sets
+12.	Array intersection
+13.	K sum subarray
+14.	Triplets
+15.	Counting rectangles
+16.	Counting triangles
+17.	Anagrams in substring
+18.	Quick Brown Fox
+19.	Break the chain
+20.	Min bars
+21.	Group Anagrams
+
+17.	Trie 
+
+1.	Intro
+2.	Class
+3.	Insertion
+4.	Searching
+5.	Queries
+6.	Prefix String
+7.	Suffix trie
+8.	Cute little cat(trie + hashing)
+9.	Biggest XOR
+10.	Max XOR pair
+11.	PNG googly strings
+12.	Phone number search
+
+18.	Graphs
+
+1.	Intro
+2.	Applications
+3.	Adjacency list rep
+4.	BFS
+5.	DFS
+6.	Topological Sort (BFS)
+7.	Kahn’s algo
+8.	Dijkshtra algo
+9.	Keys and Rooms
+10.	All paths from source to target
+11.	Find star in graph
+12.	Cycle detection in undirected graphs
+13.	Backedge detection
+14.	Snake and ladder
+15.	Board game (trie +backtrack + graph)
+16.	Shortest grid
+17.	Largest Island
+18.	Astronaut pairs
+19.	Graph sequence (graph + DP)
+
+19.	Dynamic Programming (all top down and bottom up, even if not given still do)
+
+1.	Intro and basics
+2.	Coin Change
+3.	Longest Common Subsequence (top down and bottom up)
+4.	Longest Increasing Subsequence
+5.	Knapsack (top down and bottom up)
+6.	Wines
+7.	Wines -2
+8.	Vacation
+9.	Optimal Game Strategy 
+10.	Minimum Partitioning
+11.	N-K ladders
+12.	Cutting Rods
+13.	Min array jumps
+14.	Frogs min cost (top down and bottom up)
+15.	Max non adjacent sum
+16.	Box stacking problem
+17.	Counting trees (top down and bottom up)
+18.	Counting subsequences (top down and bottom up)
+19.	Game of wits
+20.	Mixtures – SPOJ
+21.	Edit Distance
+22.	Wildcard pattern matching
+23.	Palindromic partitioning
+24. 	NinjaTraining (codingninja -divyam)
+
