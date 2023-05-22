@@ -11,7 +11,7 @@ bool compare(pair<int,int> &a,
 }
 int defkin(int W, int H, vector<pair<int, int>> &position)
 {
-    position.push_back({W,H});
+    position.push_back({W+1,H+1});
     vector<pair<int,int>> ypos = position;
     sort(position.begin(),position.end());
     sort(ypos.begin(),ypos.end(),compare);
