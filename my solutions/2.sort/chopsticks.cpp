@@ -1,63 +1,17 @@
-#include<iostream>
-#include<vector>
-#include<unordered_set>
-#include<unordered_map>
-using namespace std;//not yet handling duplicate values
-int pairSticksHelper(int n,vector<int> &length,int D,unordered_set<int> &mappy,unordered_map<string,int> &dp){
-	if(n<0){
-		return 0;
-	}
-	else{
-	string state;
-	for (auto i = mappy.begin(); i != mappy.end(); ++i) {
-    int val = *i;
-	state+=to_string(val);	
-	}
-	state+=to_string(n);	
-	if(dp.find(state)!=dp.end()){
-		return dp[state];
-	}
-	if(mappy.find(length[n])==mappy.end()){
-		mappy.insert(length[n]);
-		int maxincp=INT_MIN;
-		int maxncp=INT_MIN;
-		
-		for(int j=0;j<length.size();j++){
-			if(mappy.find(length[j])==mappy.end()){
-				int val = abs(length[n]-length[j]);
-				if(val<=D){
-					mappy.insert(length[j]);
-					int curr=1+pairSticksHelper(n-1,length,D,mappy,dp);
-					maxincp=max(curr,maxincp);
-					mappy.erase(length[j]);
-				}
-			}
-			
-		}
+#include<bits/stdc++.h>
+#include<algorithm>
+using namespace std;
 
-		mappy.erase(length[n]);
-		maxncp = pairSticksHelper(n-1,length,D,mappy,dp);
-		dp[state]=max(maxincp,maxncp);
-		return dp[state];	
-	}
-	else{
-		dp[state]=pairSticksHelper(n-1,length,D,mappy,dp);
-		return dp[state];
-	}	
-	}
-	
-	
-}
-int pairSticks(vector<int> &length, int D)
+int pairSticks(vector<int> length, int D)//running in online compiler
 {
-	unordered_set<int> mappy;
-	int n=length.size()-1;
-	unordered_map<string,int> dp;
-	return pairSticksHelper(n,length,D,mappy,dp);
-}
-
-int main(){
-	vector<int> length  = {1,2,3,4,5,6,7,8};
-	int D =2;
-	cout<<pairSticks(length,D);
+    int count=0;
+    sort(length.begin(),length.end());//simple logic, sort and find closest pair that can form with a num, if cant form with just next then also cant with those after it, if can form then always choose closest, just like interval scheduling
+    for(int i=0;i<length.size()-1;i++){
+        if(length[i+1]-length[i]<=D){
+            count++;
+            i=i+1;// jump two if pair formed so this element is not included
+        }
+    }
+    return count;
+    
 }
