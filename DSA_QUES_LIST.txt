@@ -274,6 +274,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 25.	Left View (ankush bhaiya: Right view, top view)
 26.	Sibling Swap
 27. 	Sum root to leaf (LC medium- Gorseet)
+28. IsSymmetric_using_hash (Ankush bhaiya)
 
 14.	BST
 
@@ -336,6 +337,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 19.	Break the chain
 20.	Min bars
 21.	Group Anagrams
+22. Longest Consecutive Sequence (LC Medium - gorseet)
 
 17.	Trie 
 
