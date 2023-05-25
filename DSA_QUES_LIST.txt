@@ -45,7 +45,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 10.	Defense Kingdom
 11.	Merge Sort
 12.	Quick Sort
-13.	Inversion Count
+13.	Inversion Count also Local / Global inversion count (LC)
 14.	Quick Select
 15.	Smallest String
 16.	Sparse Search
