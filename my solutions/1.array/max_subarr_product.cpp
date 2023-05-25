@@ -19,9 +19,9 @@ product=1;
 for(int i=n-1;i>=0;i--){
 	product*=arr[i];
 	ans=max(ans,product);
-	if(arr[i]==0){product=1;}
+	if(arr[i]==0){product=1;}//resets and count after the split, we have max val before 0 already stored
 }
-return ans;
+return ans;//by doing both fwd and bwd traversal we get max skipping either first or last -ve no. when odd no. of -ve integers
 }
 
 int main()
