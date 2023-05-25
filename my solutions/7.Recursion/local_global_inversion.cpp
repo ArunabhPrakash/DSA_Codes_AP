@@ -43,13 +43,23 @@ int inversion_count(vector<int> &array,int s,int e){
 	int C1=inversion_count(array,s,mid);
 	int C2=inversion_count(array,mid+1,e);
 	int CI=merge(array,s,e);
-	return C1+C2+CI;
+    return C1+C2+CI;
+
+}
+    bool isIdealPermutation(vector<int>& nums) {
+		int LI = 0;
+		   for(int i=0;i<nums.size()-1;i++){
+        if(nums[i]>nums[i+1]){
+            LI++;
+        }
+    }
+    int final = inversion_count(nums,0,nums.size()-1);
+    
+ 
+    return LI==final;
 }
 
 int main(){
-	vector<int> array{0,5,2,3,1};
-	int s=0;
-	int e=array.size()-1;
-	cout<<inversion_count(array,s,e);
-
+	vector<int> arr = {1,0,2};
+	cout<<isIdealPermutation(arr);
 }

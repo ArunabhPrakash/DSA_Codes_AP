@@ -2,34 +2,63 @@
 #include<vector>
 using namespace std;
 
-long long int maxSubarrayProduct(vector<int> &arr)
-{
-	int n = arr.size();
-long long ans=INT_MIN;
-long long product=1;
-	
-for(int i=0;i<n;i++){
-	product*=arr[i];
-	ans=max(ans,product);
-	if(arr[i]==0){product=1;}//resets and count after the split, we have max val before 0 already stored
-}
-	
-product=1;
-	
-for(int i=n-1;i>=0;i--){
-	product*=arr[i];
-	ans=max(ans,product);
-	if(arr[i]==0){product=1;}
-}
-return ans;
+int merge(vector<int> &array,int s,int e){
+	int i=s;
+	int m=(s+e)/2;
+	int j=m+1;
+	int cnt=0;
+	vector<int> temp;
+	while(i<=m and j<=e){
+		if(array[i]<array[j]){
+			temp.push_back(array[i]);//no need to maintain k and easy insertion using vector
+			i++;
+		}
+		else{
+			cnt+=(m-i+1);//for each element on j side, it has inversion with all elements from i to mid so we increase count by that much
+			temp.push_back(array[j]);
+			j++;
+		}
+	}
+	while(i<=m){
+		temp.push_back(array[i++]);
+		
+	}
+	while(j<=e){
+		temp.push_back(array[j++]);
+	}
+	int k=0;
+	for(int idx = s;idx<=e;idx++){
+		
+		array[idx] = temp[k++];
+	}
+	return cnt;
 }
 
-int main()
-{
-	vector<int> arr = { -2,0,1,2,3};
+int inversion_count(vector<int> &array,int s,int e){
+	if(s>=e){
+		return 0;
+	}
 	
-	cout << "Maximum Sub array product is "
-		<< maxSubarrayProduct(arr);
-	return 0;
+	int mid=(s+e)/2;
+	int C1=inversion_count(array,s,mid);
+	int C2=inversion_count(array,mid+1,e);
+	int CI=merge(array,s,e);
+	return C1+C2+CI;
 }
 
+int main(){
+	vector<int> array{0,5,2,3,1};
+	int s=0;
+	int LI=0;
+	int e=array.size()-1;
+		for(int i=0;i<array.size()-1;i++){
+		if(array[i]>array[i+1]){
+			LI++;
+		}
+	}
+	cout<<inversion_count(array,s,e);
+	
+
+	cout<<LI;
+
+}
