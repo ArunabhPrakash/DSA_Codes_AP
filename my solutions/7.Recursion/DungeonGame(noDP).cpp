@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;//accepted on LC only last case TLE
-logic is simple, take minH as min health needed, and PH is positive health for buffer
+//logic is simple, take minH as min health needed, and PH is positive health for buffer
 //we start with both 0, if dungeon val negative then reduce buffer to 0 then add remaining to minH else keep increasing buffer, 
 //this way we get initial min health, and not just total health req to complete
 pair<int,int> checkRemaining(vector<vector<int>> &dungeon, int i,int j,int minH,int PH){
@@ -52,7 +52,7 @@ int calculateMinimumHP(vector<vector<int>>& dungeon) {
     return calcMinHPHelper(dungeon,0,0,m,n,0,0)+1;
 }
 int main(){
-	vector<vector<int>> dungeon = {{-2,-3,3},{-5,-10,1},{10,30,-5}};
+	vector<vector<int>> dungeon = {{3,-20,30},{-3,4,0}};//[[-2,-3,3],[-5,-10,1],[10,30,-5]] working both
 	for(int i=0;i<dungeon.size();i++){
 		for(int j=0;j<dungeon.size();j++){
 			cout<<dungeon[i][j]<<" ";

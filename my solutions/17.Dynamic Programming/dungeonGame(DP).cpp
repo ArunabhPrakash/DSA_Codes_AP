@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 //m,n size
-//with DP, accepted on LC, logic is simple, take minH as min health needed, and PH is positive health for buffer
+//with DP(dp not correctly implemented), accepted on LC, logic is simple, take minH as min health needed, and PH is positive health for buffer
 //we start with both 0, if dungeon val negative then reduce buffer to 0 then add remaining to minH else keep increasing buffer, 
 //this way we get initial min health, and not just total health req to complete
 pair<int,int> checkRemaining(vector<vector<int>> &dungeon, int i,int j,int minH,int PH){
@@ -57,7 +57,7 @@ int calculateMinimumHP(vector<vector<int>>& dungeon) {
 }
 
 int main(){
-	vector<vector<int>> dungeon = {{-2,-3,3},{-5,-10,1},{10,30,-5}};
+	vector<vector<int>> dungeon = {{3,-20,30},{-3,4,0}}; //[[-2,-3,3],[-5,-10,1],[10,30,-5]] working only second
 	for(int i=0;i<dungeon.size();i++){
 		for(int j=0;j<dungeon.size();j++){
 			cout<<dungeon[i][j]<<" ";
