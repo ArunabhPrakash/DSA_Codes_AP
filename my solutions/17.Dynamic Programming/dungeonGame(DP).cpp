@@ -57,7 +57,7 @@ int calculateMinimumHP(vector<vector<int>>& dungeon) {
 }
 
 int main(){
-	vector<vector<int>> dungeon = {{3,-20,30},{-3,4,0}}; //[[-2,-3,3],[-5,-10,1],[10,30,-5]] working only second
+	vector<vector<int>> dungeon = {{3,-20,30},{-3,4,0}}; //[[-2,-3,3],[-5,-10,1],[10,30,-5]] working only second, use DP pair to store minH and PH
 	for(int i=0;i<dungeon.size();i++){
 		for(int j=0;j<dungeon.size();j++){
 			cout<<dungeon[i][j]<<" ";
