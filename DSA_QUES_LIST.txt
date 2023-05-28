@@ -1,15 +1,19 @@
 ALL DSA QUESTIONS AND CONCEPTS (343)
+[]=pg in notes, and if from LC or also on LC or someother source then mentioned
+**POINTERS:[1-5,13],also in topic 5
+**TC (ASYMPTOTIC NOTATIONS):[6-7,29-31],also in topic 9
+
 1.	ARRAYS
 
 1.	Linear Search
-2.	Binary Search
-3.	Array reverse
-4.	Printing Pairs
-5.	Printing Subarrays
-6.	Subarray sum 1
-7.	Subarray sum 2 (prefix sum)
-8.	Subarray sum 3 (Kadane’s)
-9.	Vector intro and STL
+2.	Binary Search-
+3.	Array reverse-[8]
+4.	Printing Pairs-[8]
+5.	Printing Subarrays-[8]
+6.	Subarray sum 1-[8]
+7.	Subarray sum 2 (prefix sum)-[8]
+8.	Subarray sum 3 (Kadane’s)-[9]
+9.	Vector intro and STL -[14,15]
 10.	Largest element
 11.	Max subarray sum
 12.	Lower bound
@@ -33,18 +37,18 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 2.	SORTING/SEARCHING (LIN BINARY) (Divide and conquer)
 
-1.	Bubble Sort
+1.	Bubble Sort-[9]
 2.	Optimised Bubble Sort
-3.	Insertion Sort
-4.	Selection Sort
-5.	Inbuilt Sort
-6.	Counting Sort
-7.	Sorting with Comparator
+3.	Insertion Sort-[9]
+4.	Selection Sort-[10]
+5.	Inbuilt Sort-[11]
+6.	Counting Sort-[11]
+7.	Sorting with Comparator-
 8.	Sorting Cartesian Points
 9.	Chopsticks
 10.	Defense Kingdom
-11.	Merge Sort
-12.	Quick Sort
+11.	Merge Sort-[24]
+12.	Quick Sort-[24]
 13.	Inversion Count also Local / Global inversion count (also in LC)
 14.	Quick Select (both kth largest and kth smallest) (also in LC)
 15.	Smallest String
@@ -64,14 +68,14 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 3.	CHAR ARR/ STRINGS
 
-1.	Using Cin.get()/cin.getline()
-2.	Digits and spaces
-3.	Shortest path
+1.	Using Cin.get()/cin.getline()-[10]
+2.	Digits and spaces-
+3.	Shortest path-[11]
 4.	String copy, compare, concat
-5.	Largest String
+5.	Largest String-[11]
 6.	Check Palindrome
 7.	String class
-8.	String compression
+8.	String compression-[11]
 9.	Run length encoding
 10.	Permutation
 11.	Remove duplicates
@@ -94,16 +98,16 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 4.	2D Arrays
 
-1.	Intro and basics
-2.	2d char arr
-3.	Spiral print
+1.	Intro and basics -[11]
+2.	2d char arr-[11]
+3.	Spiral print-[11]
 4.	Wave print
-5.	Sorted array search
-6.	Mango trees
+5.	Sorted array search-[12]
+6.	Mango trees-[12]
 7.	Pascal’s triangle
 8.	Submatrix sum
 
-5.	Pointers and dynamic Memory
+5.	Pointers and dynamic Memory [done earlier]
 
 1.	Address of Operator
 2.	Pointers
@@ -113,7 +117,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 6.	Pass by reference – pointers
 7.	Dynamic Memory Allocation
 8.	Using new and Delete
-9.	2d Dynamic Arr
+9.	2d Dynamic Arr-[14]
 
 6.	Sliding Window
 
@@ -127,20 +131,20 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 7.	Bit Manipulation
 
-1.	Bitwise operators
-2.	Left shift and right shift
-3.	Odd even
-4.	Get ith bit
-5.	Set ith bit
-6.	Clear ith bit
-7.	Update ith bit
-8.	Clear last I bits
-9.	Clear range of Bits
-10.	Replace Bits
-11.	Two power
-12.	Count bits
-13.	Fast exponentiation
-14.	Make it binary
+1.	Bitwise operators-[15,16]
+2.	Left shift and right shift-[16]
+3.	Odd even-[17]
+4.	Get ith bit-[17]
+5.	Set ith bit-[17]
+6.	Clear ith bit-[17]
+7.	Update ith bit-[17]
+8.	Clear last I bits-[17]
+9.	Clear range of Bits-[18]
+10.	Replace Bits-[18]
+11.	Two power-[18]
+12.	Count bits-[19]
+13.	Fast exponentiation-[19]
+14.	Make it binary-[19]
 15.	Xoring
 16.	Modulo Exponentiation
 17.	Earth levels
@@ -148,38 +152,38 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 8.	Recursion Basics and Backtracking
 
-1.	Intro
-2.	Factorial
-3.	Fibonacci series
-4.	Sorted array check
-5.	First occurrence
-6.	Last occurrence
-7.	All occurrence
+1.	Intro-[20]
+2.	Factorial-[20]
+3.	Fibonacci series-[20]
+4.	Sorted array check-[20]
+5.	First occurrence-[21]
+6.	Last occurrence-[21]
+7.	All occurrence-
 8.	Print Increasing numbers
-9.	Power func
-10.	Power func optimized
-11.	Bubble sort
-12.	Number spell
-13.	Tiling problem
-14.	Binary strings
-15.	Friends party
+9.	Power func-[21]
+10.	Power func optimized-[22]
+11.	Bubble sort-[22]
+12.	Number spell-[22]
+13.	Tiling problem-[22]
+14.	Binary strings-[23]
+15.	Friends party-[23]
 16.	Ladders
 17.	Subset sum to X
 18.	Generate brackets
 19.	Smart keypad
-20.	N queen
-21.	N queen ways
-22.	Grid Ways
-23.	Sudoku
+20.	N queen-[27]
+21.	N queen ways-[27]
+22.	Grid Ways-[28]
+23.	Sudoku-[28]
 24.	Modulo Exponentiation
 25.	Game of coins
 26.	Rat in a maze
 27.	Longest Possible route
 28.	Word break 
-29.	Unique subset
+29.	Unique subset-
 30.	Word search
 
-9.	Space and time complexity analysis//done that course list till above
+9.	Space and time complexity analysis [done earlier]
 
 1.	Experimental
 2.	Big O notation
