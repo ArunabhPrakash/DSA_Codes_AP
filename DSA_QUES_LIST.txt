@@ -59,7 +59,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 20.	Sorting Subarray
 21.	Frequency Count 1
 22.	Frequency Count 2
-23.	Rotated arr Search
+23.	Rotated arr Search-[25]
 24.	Finding Roots
 25.	Angry Birds
 26.	Min pairs
@@ -182,6 +182,10 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 28.	Word break 
 29.	Unique subset-
 30.	Word search
+31. Finding Subsets-[25]
+32. Ordering subsets-[26],just sort above
+33. Permutations-[26]
+34. Array filling-[25]
 
 9.	Space and time complexity analysis [done earlier]
 
@@ -194,30 +198,30 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 10.	Object Oriented Prog
 
-1.	Classes and objs
-2.	Getters and setters
-3.	Constructor/ obj initialization
-4.	Copy Constructor
-5.	Shallow and deep copy
-6.	Copy assignment operator
-7.	Destructor
+1.	Classes and objs-[31]
+2.	Getters and setters-[31]
+3.	Constructor/ obj initialization-[32]
+4.	Copy Constructor-[32]
+5.	Shallow and deep copy-[32]
+6.	Copy assignment operator-[32]
+7.	Destructor-[32]
 8.	Shopping Cart using OOPs
 
 11.	Linked List
 
-1.	LL intro
-2.	Push front
-3.	Push back
-4.	Print
-5.	Insert 
-6.	Insert in Middle
-7.	Searching
-8.	Recursive search
-9.	Deletion
-10.	Pop front
-11.	Delete tail
-12.	Reverse LL recursive
-13.	Reverse LL iterative
+1.	LL intro-[33]
+2.	Push front-[33]
+3.	Push back-[33]
+4.	Print-[33]
+5.	Insert -[33]
+6.	Insert in Middle-[33]
+7.	Searching-[33]
+8.	Recursive search-[33]
+9.	Deletion-[34]
+10.	Pop front-[34]
+11.	Delete tail-[34]
+12.	Reverse LL recursive-[34]
+13.	Reverse LL iterative-[34]
 14.	K-reverse LL
 15.	Merge two sorted LL
 16.	Runner technique to find middle
@@ -229,12 +233,12 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 12.	Stacks 
 
-1.	Stacks DS
-2.	Stacks implementation
-3.	Using LL, Vector, STL
-4.	Insert at bottom 
-5.	Reverse recursively
-6.	Stock span
+1.	Stacks DS-[35]
+2.	Stacks implementation-[35]
+3.	Using LL, Vector, STL-[35]
+4.	Insert at bottom -[35]
+5.	Reverse recursively-[36]
+6.	Stock span-[36]
 7.	Next greater Element
 8.	Duplicate parentheses
 9.	Balanced paranthesis
@@ -242,30 +246,30 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 11.	Max subarray(Sliding window + deque)
 12.	Simplify path
 13.	Max rectangular area in Histogram
-14.	Queue intro, implement
-15.	Using Circular Array
-16.	Queue STL
-17.	Stack using 2 queues
+14.	Queue intro, implement-[37]
+15.	Using Circular Array-[37]
+16.	Queue STL-[37]
+17.	Stack using 2 queues-[37]
 18.	First non repeating letter
 19.	Interleave two halves of queue
 
 13.	Binary Tree
 
-1.	Intro
-2.	Build preorder
-3.	Preorder
-4.	Inorder
-5.	Postorder
-6.	Level order
-7.	Build levelorder
-8.	Height of the tree
-9.	Kth level
+1.	Intro-[38]
+2.	Build preorder-[38]
+3.	Preorder-[38]
+4.	Inorder-[38]
+5.	Postorder-[38]
+6.	Level order-[38]
+7.	Build levelorder-[39]
+8.	Height of the tree-[40]
+9.	Kth level-
 10.	Sum of Nodes
-11.	Tree Diameter 1
-12.	Tree diameter 2
+11.	Tree Diameter 1-[40]
+12.	Tree diameter 2-[40]
 13.	Min depth
 14.	Symmetric tree-1 
-15.	Symmetric tree-2 (using my approach: horizontal and vertical height)
+15.	Symmetric tree-2 (using my approach: horizontal and vertical height)(Ankush bhaiya)
 16.	Expression tree
 17.	Remove half nodes
 18.	Target Path sum
@@ -277,17 +281,17 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 24.	Vertical Order print // opposite of level order print
 25.	Left View (ankush bhaiya: Right view, top view)
 26.	Sibling Swap
-27. 	Sum root to leaf (LC medium- Gorseet)
-28. IsSymmetric_using_hash (Ankush bhaiya)
+27. Sum root to leaf (LC medium- Gorseet)
+
 
 14.	BST
 
-1.	Intro
-2.	BST creation
-3.	Searching
-4.	Deletion
-5.	Print in Range
-6.	Root to leaf
+1.	Intro-[40]
+2.	BST creation-[40]
+3.	Searching-[41]
+4.	Deletion-[41]
+5.	Print in Range-[41]
+6.	Root to leaf-[42]
 7.	Mirror a BST
 8.	isBST?
 9.	Delete in BST
@@ -301,7 +305,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 15.	Heaps/ Priority Queue
 
-1.	Intro
+1.	Intro-[42]
 2.	Heap vs other DS
 3.	Heap as CBT
 4.	As Arrays
