@@ -1,11 +1,12 @@
 ALL DSA QUESTIONS AND CONCEPTS (343)
 []=pg in notes, and if from LC or also on LC or someother source then mentioned
+MS=my sol folder
 **POINTERS:[1-5,13],also in topic 5
 **TC (ASYMPTOTIC NOTATIONS):[6-7,29-31],also in topic 9
 
 1.	ARRAYS
 
-1.	Linear Search
+1.	Linear Search - [done]
 2.	Binary Search (recursion)-[69]
 3.	Array reverse-[8]
 4.	Printing Pairs-[8]
@@ -14,12 +15,12 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 7.	Subarray sum 2 (prefix sum)-[8]
 8.	Subarray sum 3 (Kadane’s)-[9]
 9.	Vector intro and STL -[14,15]
-10.	Largest element
+10.	Largest element - [done,MS]
 11.	Max subarray sum
-12.	Lower bound
+12.	Lower bound - [9]
 13.	Sorted Pair sum
-14.	K-rotate
-15.	FizzBuzz 
+14.	K-rotate- [9]
+15.	FizzBuzz - [done]
 16.	Pairs-[58]
 17.	Triplets-[58]
 18.	Mountain-[58]
@@ -30,10 +31,10 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 23.	Min Difference-[61]
 24.	Array Products-[61]
 25.	Busy Life-[61]
-26.	Vector: sorting cabs-
-27.	Vector: Sort fruits
-28.	Vector: Rotate Image
-29.	Vector: Make zeroes
+26.	Vector: sorting cabs-[done]
+27.	Vector: Sort fruits-[done]
+28.	Vector: Rotate Image-[done]
+29.	Vector: Make zeroes-[done]
 30.	
 
 2.	SORTING/SEARCHING (LIN BINARY) (Divide and conquer)
@@ -386,7 +387,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 16.	Shortest grid - [84]
 17.	Largest Island - [85]
 18.	Astronaut pairs
-19.	Graph sequence (graph + DP)
+19.	Graph sequence (graph + DP) - [85]
 
 19.	Dynamic Programming (all top down and bottom up, even if not given still do)
 
@@ -400,18 +401,18 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 8.	Vacation-
 9.	Optimal Game Strategy- 
 10.	Minimum Partitioning-
-11.	N-K ladders
-12.	Cutting Rods
-13.	Min array jumps
-14.	Frogs min cost (top down and bottom up)
-15.	Max non adjacent sum
-16.	Box stacking problem
-17.	Counting trees (top down and bottom up)
-18.	Counting subsequences (top down and bottom up)
+11.	N-K ladders - [86]
+12.	Cutting Rods - [86]
+13.	Min array jumps - [87]
+14.	Frogs min cost (top down and bottom up) - [87]
+15.	Max non adjacent sum - [88]
+16.	Box stacking problem - [88]
+17.	Counting trees (top down and bottom up) - [88]
+18.	Counting subsequences (top down and bottom up) - [90]
 19.	Game of wits
 20.	Mixtures – SPOJ
 21.	Edit Distance
 22.	Wildcard pattern matching
 23.	Palindromic partitioning
-24. 	NinjaTraining (codingninja -divyam)
+24. NinjaTraining (codingninja -divyam)
 
