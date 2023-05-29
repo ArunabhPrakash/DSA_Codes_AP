@@ -6,7 +6,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 1.	ARRAYS
 
 1.	Linear Search
-2.	Binary Search-
+2.	Binary Search (recursion)-[69]
 3.	Array reverse-[8]
 4.	Printing Pairs-[8]
 5.	Printing Subarrays-[8]
@@ -50,22 +50,22 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 10.	Defense Kingdom-[62]
 11.	Merge Sort-[24]
 12.	Quick Sort-[24]
-13.	Inversion Count also Local / Global inversion count (also in LC)
-14.	Quick Select (both kth largest and kth smallest) (also in LC)
-15.	Smallest String
-16.	Sparse Search
-17.	Staircase Search
-18.	ICPC standings
-19.	Juggling Balls
-20.	Sorting Subarray
-21.	Frequency Count 1
-22.	Frequency Count 2
+13.	Inversion Count also Local / Global inversion count (also in LC) - [69]
+14.	Quick Select (both kth largest and kth smallest) (also in LC) - [69]
+15.	Smallest String - [70]
+16.	Sparse Search -
+17.	Staircase Search - 
+18.	ICPC standings - [70]
+19.	Juggling Balls - [70]
+20.	Sorting Subarray - [done in notes latest]
+21.	Frequency Count 1 - [71]
+22.	Frequency Count 2 - [71]
 23.	Rotated arr Search-[25]
-24.	Finding Roots
+24.	Finding Roots-[71]
 25.	Angry Birds
-26.	Min pairs
-27.	Game of Greed
-28.	Reading Books
+26.	Min pairs - [71]
+27.	Game of Greed - [71]
+28.	Reading Books - [72]
 
 3.	CHAR ARR/ STRINGS
 
@@ -105,8 +105,9 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 4.	Wave print
 5.	Sorted array search-[12]
 6.	Mango trees-[12]
-7.	Pascal’s triangle
-8.	Submatrix sum
+7.	Pascal’s triangle - [66]
+8.	Submatrix sum - [67]
+9.  2d array merge - [69]
 
 5.	Pointers and dynamic Memory [done earlier]
 
@@ -122,13 +123,13 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 6.	Sliding Window
 
-1.	Intro
-2.	Housing (two pointers)
-3.	Unique Substr (hashing)
-4.	String Window
-5.	Smallest Distinct Window
-6.	Sliding window max
-7.	Count subarr with target sum
+1.	Intro - [64]
+2.	Housing (two pointers) - [64]
+3.	Unique Substr (hashing) - [65]
+4.	String Window - [65]
+5.	Smallest Distinct Window - [66]
+6.	Sliding window max - [68]
+7.	Count subarr with target sum - [69]
 
 7.	Bit Manipulation
 
@@ -170,9 +171,9 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 14.	Binary strings-[23]
 15.	Friends party-[23]
 16.	Ladders
-17.	Subset sum to X
-18.	Generate brackets
-19.	Smart keypad
+17.	Subset sum to X -[68,74]
+18.	Generate brackets-[74]
+19.	Smart keypad-[74]
 20.	N queen-[27]
 21.	N queen ways-[27]
 22.	Grid Ways-[28]
@@ -181,12 +182,12 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 25.	Game of coins
 26.	Rat in a maze
 27.	Longest Possible route
-28.	Word break 
+28.	Word break - [73]
 29.	Unique subset-
 30.	Word search
 31. Finding Subsets-[25]
 32. Ordering subsets-[26],just sort above
-33. Permutations-[26]
+33. Permutations-[26,75]
 34. Array filling-[25]
 
 9.	Space and time complexity analysis [done earlier]
@@ -222,15 +223,15 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 9.	Deletion-[34]
 10.	Pop front-[34]
 11.	Delete tail-[34]
-12.	Reverse LL recursive-[34]
+12.	Reverse LL recursive-[34,75]
 13.	Reverse LL iterative-[34]
-14.	K-reverse LL
-15.	Merge two sorted LL
-16.	Runner technique to find middle
-17.	Kth last element
+14.	K-reverse LL - [75]
+15.	Merge two sorted LL - [76]
+16.	Runner technique to find middle - [76]
+17.	Kth last element -
 18.	Alternate Merge
 19.	Bubble Sort on LL
-20.	Merge sort on LL
+20.	Merge sort on LL - [76]
 21.	Detect cycle in LL
 
 12.	Stacks 
@@ -243,16 +244,16 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 6.	Stock span-[36]
 7.	Next greater Element
 8.	Duplicate parentheses
-9.	Balanced paranthesis
-10.	Redundant paranthesis
+9.	Balanced paranthesis - [76]
+10.	Redundant paranthesis - [76]
 11.	Max subarray(Sliding window + deque)
-12.	Simplify path
+12.	Simplify path - [77]
 13.	Max rectangular area in Histogram
 14.	Queue intro, implement-[37]
 15.	Using Circular Array-[37]
 16.	Queue STL-[37]
 17.	Stack using 2 queues-[37]
-18.	First non repeating letter
+18.	First non repeating letter - [76]
 19.	Interleave two halves of queue
 
 13.	Binary Tree
@@ -275,15 +276,16 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 16.	Expression tree
 17.	Remove half nodes
 18.	Target Path sum
-19.	Replace with descendant sum
-20.	Height balanced tree(check)
-21.	Max susbset sum tree
-22.	Print at level K
-23.	Nodes at distance K
-24.	Vertical Order print // opposite of level order print
+19.	Replace with descendant sum - [77]
+20.	Height balanced tree(check) - [77]
+21.	Max susbset sum tree - [77]
+22.	Print at level K - [77]
+23.	Nodes at distance K - [78]
+24.	Vertical Order print // opposite of level order print - [78]
 25.	Left View (ankush bhaiya: Right view, top view)
-26.	Sibling Swap
+26.	Sibling Swap - []
 27. Sum root to leaf (LC medium- Gorseet)
+28. Node left oright sibling (ankush bhaiya)
 
 
 14.	BST
@@ -297,10 +299,10 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 7.	Mirror a BST
 8.	isBST?
 9.	Delete in BST
-10.	Min height in bst
-11.	Closest in bst
-12.	Tree to LL
-13.	Inorder Successor
+10.	Min height in bst - [79]
+11.	Closest in bst - [79]
+12.	Tree to LL - [79]
+13.	Inorder Successor - [79]
 14.	SpecialBSTs
 15.	LCA
 16.	Shortest tree path
@@ -320,9 +322,9 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 11.	Weakest Rows
 12.	Relative ranks
 13.	Sort using heaps-
-14.	Merging ropes
-15.	Running median
-16.	Merge k sorted arrays
+14.	Merging ropes - [80]
+15.	Running median - [80]
+16.	Merge k sorted arrays - [80]
 
 16.	Hashing
 
@@ -339,11 +341,11 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 11.	Unordered maps and sets-[47]
 12.	Array intersection-
 13.	K sum subarray
-14.	Triplets
-15.	Counting rectangles
-16.	Counting triangles
-17.	Anagrams in substring
-18.	Quick Brown Fox
+14.	Triplets - [80]
+15.	Counting rectangles - [81]
+16.	Counting triangles - [81]
+17.	Anagrams in substring - [81]
+18.	Quick Brown Fox - [81]
 19.	Break the chain
 20.	Min bars
 21.	Group Anagrams
@@ -357,9 +359,9 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 4.	Searching-[48]
 5.	Queries-[48]
 6.	Prefix String
-7.	Suffix trie
-8.	Cute little cat(trie + hashing)
-9.	Biggest XOR
+7.	Suffix trie - [82]
+8.	Cute little cat(trie + hashing) - [82]
+9.	Biggest XOR - [82]
 10.	Max XOR pair
 11.	PNG googly strings
 12.	Phone number search
@@ -369,7 +371,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 1.	Intro-[49]
 2.	Applications-[49]
 3.	Adjacency list rep-[49]
-4.	BFS-[51]
+4.	BFS-[51,83]
 5.	DFS-[51]
 6.	Topological Sort (BFS)-[50]
 7.	Kahn’s algo-
@@ -377,12 +379,12 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 9.	Keys and Rooms
 10.	All paths from source to target
 11.	Find star in graph
-12.	Cycle detection in undirected graphs
-13.	Backedge detection
-14.	Snake and ladder
-15.	Board game (trie +backtrack + graph)
-16.	Shortest grid
-17.	Largest Island
+12.	Cycle detection in undirected graphs - [83]
+13.	Backedge detection - [84]
+14.	Snake and ladder - [83]
+15.	Board game (trie +backtrack + graph) - [84]
+16.	Shortest grid - [84]
+17.	Largest Island - [85]
 18.	Astronaut pairs
 19.	Graph sequence (graph + DP)
 
