@@ -20,33 +20,34 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 13.	Sorted Pair sum
 14.	K-rotate
 15.	FizzBuzz 
-16.	Pairs
-17.	Triplets
-18.	Mountain
-19.	Longest Band
-20.	Rains
-21.	Subarray Sort
-22.	Minimum Swaps
-23.	Min Difference
-24.	Array Products
-25.	Busy Life
-26.	Vector: sorting cabs
+16.	Pairs-[58]
+17.	Triplets-[58]
+18.	Mountain-[58]
+19.	Longest Band-[58]
+20.	Rains-[59]
+21.	Subarray Sort-[60]
+22.	Minimum Swaps-[61]
+23.	Min Difference-[61]
+24.	Array Products-[61]
+25.	Busy Life-[61]
+26.	Vector: sorting cabs-
 27.	Vector: Sort fruits
 28.	Vector: Rotate Image
 29.	Vector: Make zeroes
+30.	
 
 2.	SORTING/SEARCHING (LIN BINARY) (Divide and conquer)
 
 1.	Bubble Sort-[9]
-2.	Optimised Bubble Sort
+2.	Optimised Bubble Sort-[62]
 3.	Insertion Sort-[9]
 4.	Selection Sort-[10]
 5.	Inbuilt Sort-[11]
 6.	Counting Sort-[11]
 7.	Sorting with Comparator-
-8.	Sorting Cartesian Points
-9.	Chopsticks
-10.	Defense Kingdom
+8.	Sorting Cartesian Points-
+9.	Chopsticks-[62]
+10.	Defense Kingdom-[62]
 11.	Merge Sort-[24]
 12.	Quick Sort-[24]
 13.	Inversion Count also Local / Global inversion count (also in LC)
@@ -73,7 +74,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 3.	Shortest path-[11]
 4.	String copy, compare, concat
 5.	Largest String-[11]
-6.	Check Palindrome
+6.	Check Palindrome-[64]
 7.	String class
 8.	String compression-[11]
 9.	Run length encoding
@@ -89,11 +90,11 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 19.	Design owner tokenizer
 20.	String key sort
 21.	Checksubset
-22.	Sort subsequences
+22.	Sort subsequences-[63]
 23.	Digital Clock
-24.	Biggest Number String
+24.	Biggest Number String-[63]
 25.	Run length encoding
-26.	Palindrome Break
+26.	Palindrome Break-[64]
 27.	String Normalisation
 
 4.	2D Arrays
@@ -149,6 +150,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 16.	Modulo Exponentiation
 17.	Earth levels
 18.	Subset sum queries
+19.	Sqroot (LC-easy, Jaideep)
 
 8.	Recursion Basics and Backtracking
 
@@ -205,7 +207,7 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 5.	Shallow and deep copy-[32]
 6.	Copy assignment operator-[32]
 7.	Destructor-[32]
-8.	Shopping Cart using OOPs
+8.	Shopping Cart using OOPs-[57]
 
 11.	Linked List
 
@@ -306,36 +308,36 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 15.	Heaps/ Priority Queue
 
 1.	Intro-[42]
-2.	Heap vs other DS
-3.	Heap as CBT
-4.	As Arrays
-5.	Insertion
-6.	Remove min/max
-7.	Max product
-8.	STL
-9.	Nearby Cars
-10.	Reduced array size to half
+2.	Heap vs other DS-[42]
+3.	Heap as CBT-[42]
+4.	As Arrays-[42]
+5.	Insertion-[43]
+6.	Remove min/max-[43]
+7.	Max product-
+8.	STL-[44]
+9.	Nearby Cars -[44]
+10.	Reduced array size to half- 
 11.	Weakest Rows
 12.	Relative ranks
-13.	Sort using heaps
+13.	Sort using heaps-
 14.	Merging ropes
 15.	Running median
 16.	Merge k sorted arrays
 
 16.	Hashing
 
-1.	Intro
-2.	Hash functions
-3.	Collision handling
-4.	Hashing Code -1 //setup
-5.	Hashing Code -2// Insertion
-6.	Hashing Code -3//rehashing
-7.	Testing 
-8.	Search
-9.	Erase
-10.	Operator Overloading
-11.	Unordered maps and sets
-12.	Array intersection
+1.	Intro-[45]
+2.	Hash functions-[45]
+3.	Collision handling-[45]
+4.	Hashing Code -1 //setup-[45]
+5.	Hashing Code -2// Insertion-[46]
+6.	Hashing Code -3//rehashing-[46]
+7.	Testing -[46]
+8.	Search-[46]
+9.	Erase-[47]
+10.	Operator Overloading-[47]
+11.	Unordered maps and sets-[47]
+12.	Array intersection-
 13.	K sum subarray
 14.	Triplets
 15.	Counting rectangles
@@ -349,11 +351,11 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 17.	Trie 
 
-1.	Intro
-2.	Class
-3.	Insertion
-4.	Searching
-5.	Queries
+1.	Intro-[47]
+2.	Class-[47]
+3.	Insertion-[47]
+4.	Searching-[48]
+5.	Queries-[48]
 6.	Prefix String
 7.	Suffix trie
 8.	Cute little cat(trie + hashing)
@@ -364,14 +366,14 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 18.	Graphs
 
-1.	Intro
-2.	Applications
-3.	Adjacency list rep
-4.	BFS
-5.	DFS
-6.	Topological Sort (BFS)
-7.	Kahn’s algo
-8.	Dijkshtra algo
+1.	Intro-[49]
+2.	Applications-[49]
+3.	Adjacency list rep-[49]
+4.	BFS-[51]
+5.	DFS-[51]
+6.	Topological Sort (BFS)-[50]
+7.	Kahn’s algo-
+8.	Dijkshtra algo-[52]
 9.	Keys and Rooms
 10.	All paths from source to target
 11.	Find star in graph
@@ -386,16 +388,16 @@ ALL DSA QUESTIONS AND CONCEPTS (343)
 
 19.	Dynamic Programming (all top down and bottom up, even if not given still do)
 
-1.	Intro and basics
-2.	Coin Change
+1.	Intro and basics-[53]
+2.	Coin Change-[54]
 3.	Longest Common Subsequence (top down and bottom up)
-4.	Longest Increasing Subsequence
-5.	Knapsack (top down and bottom up)
-6.	Wines
-7.	Wines -2
-8.	Vacation
-9.	Optimal Game Strategy 
-10.	Minimum Partitioning
+4.	Longest Increasing Subsequence-[54]
+5.	Knapsack (top down and bottom up)-[55]
+6.	Wines-[56]
+7.	Wines -2-[56]
+8.	Vacation-
+9.	Optimal Game Strategy- 
+10.	Minimum Partitioning-
 11.	N-K ladders
 12.	Cutting Rods
 13.	Min array jumps
