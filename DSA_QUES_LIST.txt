@@ -35,7 +35,7 @@ MS=my sol folder
 27.	Vector: Sort fruits-[done]
 28.	Vector: Rotate Image-[done]
 29.	Vector: Make zeroes-[done]
-30.	
+30.	Next Permutation - LC(gorseet) [done, in new pages]
 
 2.	SORTING/SEARCHING (LIN BINARY) (Divide and conquer)
 
