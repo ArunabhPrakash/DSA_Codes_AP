@@ -54,7 +54,7 @@ MS=my sol folder
 13.	Inversion Count also Local / Global inversion count (also in LC) - [69]
 14.	Quick Select (both kth largest and kth smallest) (also in LC) - [69]
 15.	Smallest String - [70]
-16.	Sparse Search -
+16.	Sparse Search - [new pages]
 17.	Staircase Search - 
 18.	ICPC standings - [70]
 19.	Juggling Balls - [70]
