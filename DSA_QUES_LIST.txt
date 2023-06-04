@@ -55,7 +55,7 @@ MS=my sol folder
 14.	Quick Select (both kth largest and kth smallest) (also in LC) - [69]
 15.	Smallest String - [70]
 16.	Sparse Search - [new pages]
-17.	Staircase Search - 
+17.	Staircase Search - [new pages]
 18.	ICPC standings - [70]
 19.	Juggling Balls - [70]
 20.	Sorting Subarray - [done in notes latest]
