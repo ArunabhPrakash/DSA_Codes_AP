@@ -38,7 +38,7 @@ int binsearch(vector<string> arr,string k,int s,int e){
 }
 int main(){
 	vector<string> arr={"ai","","","bat","","","car","cat","","","dog"};
-	string k = "doog";
+	string k = "ai";
 	int s=0;
 	int e=arr.size()-1;
 	cout<<binsearch(arr,k,s,e);
