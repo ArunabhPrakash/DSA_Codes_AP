@@ -56,7 +56,7 @@ MS=my sol folder
 15.	Smallest String - [70]
 16.	Sparse Search - [new pages]
 17.	Staircase Search - [new pages]
-18.	ICPC standings - [70]
+18.	ICPC standings - [70] (running)
 19.	Juggling Balls - [70]
 20.	Sorting Subarray - [done in notes latest]
 21.	Frequency Count 1 - [71]
