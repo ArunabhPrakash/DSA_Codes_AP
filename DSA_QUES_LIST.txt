@@ -58,7 +58,7 @@ MS=my sol folder
 17.	Staircase Search - [new pages]
 18.	ICPC standings - [70] (running,same page updated offline)
 19.	Juggling Balls - [70] 
-20.	Sorting Subarray - [done in notes latest]
+20.	Sorting Subarray - [done in notes latest]-write code,https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 21.	Frequency Count 1 - [71]
 22.	Frequency Count 2 - [71]
 23.	Rotated arr Search-[25]
