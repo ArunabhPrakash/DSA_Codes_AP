@@ -10,7 +10,7 @@ bool notOrder(int i,vector<int> &arr){
 		return arr[i]<arr[i-1];
 	}
 	else{
-		return arr[i]>arr[i+1] or arr[i]<arr[i-1];
+		return arr[i]>arr[i+1] or arr[i]<arr[i-1];// so in case of 5,3 both 5 and 3 will be noted down as max =5, min = 3
 	}
 }
 pair<int,int> subarrsort(vector<int> &arr){
