@@ -66,7 +66,7 @@ MS=my sol folder
 25.	Angry Birds
 26.	Min pairs - [71]
 27.	Game of Greed - [71]
-28.	Reading Books - [72]
+28.	Reading Books - [72][not done]
 
 3.	CHAR ARR/ STRINGS
 
