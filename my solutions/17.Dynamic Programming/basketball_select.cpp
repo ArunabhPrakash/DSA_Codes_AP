@@ -24,7 +24,8 @@ int basketball_select(vector<int> &a,vector<int> &b,int n,int r,vector<vector<in
 		else{
 			int excr0=a[n]+basketball_select(a,b,n-1,0,dp);
 			int excr1=b[n]+basketball_select(a,b,n-1,1,dp);
-			return dp[n][r]=max(excr0,excr1);
+			int noselect = basketball_select(a,b,n-1,2,dp);
+			return dp[n][r]=max(noselect,max(excr0,excr1));
 		}	
 		}
 		
