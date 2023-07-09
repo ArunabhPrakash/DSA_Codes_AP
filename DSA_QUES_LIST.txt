@@ -419,5 +419,6 @@ MS=my sol folder
 21.	Edit Distance
 22.	Wildcard pattern matching
 23.	Palindromic partitioning
-24. NinjaTraining (codingninja -divyam)
+24. 	NinjaTraining (codingninja -divyam)
+25.	Basketball_select(cvent)
 
