@@ -354,7 +354,8 @@ MS=my sol folder
 19.	Break the chain
 20.	Min bars
 21.	Group Anagrams
-22. Longest Consecutive Sequence (LC Medium - gorseet)
+22. 	Longest Consecutive Sequence (LC Medium - gorseet)
+23.	Next greater element - (LC easy - gorseet)
 
 17.	Trie 
 
