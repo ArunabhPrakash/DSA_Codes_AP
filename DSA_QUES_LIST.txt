@@ -37,6 +37,7 @@ MS=my sol folder
 29.	Vector: Make zeroes-[done]
 30.	Next Permutation - LC(gorseet) [done, in new pages]
 31.	Find Pivot Index - LC(gorseet interview) [done in new pages]
+32. 	Max nonoverlap subarr sum - LC,cvent [done in new pages,not running]
 
 2.	SORTING/SEARCHING (LIN BINARY) (Divide and conquer)
 
