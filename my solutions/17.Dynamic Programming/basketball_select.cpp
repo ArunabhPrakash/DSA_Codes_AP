@@ -32,8 +32,8 @@ int basketball_select(vector<int> &a,vector<int> &b,int n,int r,vector<vector<in
 	}
 }
 int main(){
-	vector<int> a = {1,4,5};
-	vector<int> b = {3,7,9};
+	vector<int> a = {1,2,9};
+	vector<int> b = {10,1,1};
 	vector<vector<int>> dp(3, vector<int> (a.size(), -1)); 
 	cout<<basketball_select(a,b,2,2,dp);
 }

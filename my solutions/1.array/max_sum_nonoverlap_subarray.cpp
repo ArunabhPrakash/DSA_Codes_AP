@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-using namespace std;
+using namespace std;//not submitted in LC
 
 
     bool slidingwindow(vector<int> &nums,vector<int> &prefixvec,int len,int start,int end){
