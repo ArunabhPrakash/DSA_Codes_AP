@@ -1,9 +1,10 @@
 #include<iostream>
 #include<algorithm>
 #include<string.h>
+#include<unordered_set>
 using namespace std;
 
-string removeDuplicate(string s){
+string removeDuplicate(string s){//nlogn
     sort(s.begin(),s.end());
     string output;
     for(int i=0;s[i]!='\0';i++){
@@ -13,11 +14,21 @@ string removeDuplicate(string s){
 	}
 	return output;
 }
+string removeDuplicate2(string s){
+    unordered_set<char> m;
+    string str;
+	for(int i=0;s[i]!='\0';i++){
+    	if(m.find(s[i])==m.end()){
+    		str+=s[i];
+    		m.insert(s[i]);
+		}
+		
+	}
+	return str;
+}
 
 int main(){
-	string s="cccbbaa";
-	string op;
-	op=removeDuplicate(s);
-	cout<<op;
+	string s="geeksforgeeks";
+	cout<<removeDuplicate2(s);
 	
 }
