@@ -88,10 +88,10 @@ MS=my sol folder
 14.	Searching inside string [done,name searchall]
 15.	Warmup:search all
 16.	Space20 [done, put %20 instead of space]
-17.	Tokenisation (sstream)
-18.	Tokenisation (Strtok)
-19.	Design owner tokenizer
-20.	String key sort
+17.	Tokenisation (sstream) [done]
+18.	Tokenisation (Strtok)  [done]
+19.	Design owner tokenizer  [done]
+20.	String key sort  [done]
 21.	Checksubset
 22.	Sort subsequences-[63]
 23.	Digital Clock
