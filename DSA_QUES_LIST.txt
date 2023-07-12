@@ -81,7 +81,7 @@ MS=my sol folder
 7.	String class
 8.	String compression-[11]
 9.	Run length encoding - [same as str compression]
-10.	Permutation
+10.	Permutation - [checks if s2 perm of s1]
 11.	Remove duplicates
 12.	Vowel Find
 13.	Binary string to number
