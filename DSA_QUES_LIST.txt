@@ -83,11 +83,11 @@ MS=my sol folder
 9.	Run length encoding - [same as str compression]
 10.	Permutation - [checks if s2 perm of s1]
 11.	Remove duplicates - [remove all duplic letters of string and keep only 1 copy,png:used sort,my:using hashmap o(n)]
-12.	Vowel Find
-13.	Binary string to number
-14.	Searching inside string
+12.	Vowel Find [find vowels present in str,done]
+13.	Binary string to number [done]
+14.	Searching inside string [done,name searchall]
 15.	Warmup:search all
-16.	Space20
+16.	Space20 [done, put %20 instead of space]
 17.	Tokenisation (sstream)
 18.	Tokenisation (Strtok)
 19.	Design owner tokenizer
