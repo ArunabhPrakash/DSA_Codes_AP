@@ -83,8 +83,8 @@ MS=my sol folder
 9.	Run length encoding - [same as str compression]
 10.	Permutation - [checks if s2 perm of s1]
 11.	Remove duplicates - [remove all duplic letters of string and keep only 1 copy,png:used sort,my:using hashmap o(n)]
-12.	Vowel Find
-13.	Binary string to number
+12.	Vowel Find [find vowels present in str,done]
+13.	Binary string to number [done]
 14.	Searching inside string
 15.	Warmup:search all
 16.	Space20
