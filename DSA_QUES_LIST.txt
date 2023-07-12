@@ -287,8 +287,9 @@ MS=my sol folder
 24.	Vertical Order print // opposite of level order print - [78]
 25.	Left View (ankush bhaiya: Right view, top view)
 26.	Sibling Swap - []
-27. Sum root to leaf (LC medium- Gorseet)
-28. Node left oright sibling (ankush bhaiya)
+27. 	Sum root to leaf (LC medium- Gorseet)
+28. 	Node left oright sibling (ankush bhaiya)
+29.	Lowest Common Ancestor (LC medium - jagriti)
 
 
 14.	BST
