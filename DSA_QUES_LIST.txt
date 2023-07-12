@@ -87,7 +87,7 @@ MS=my sol folder
 13.	Binary string to number [done]
 14.	Searching inside string [done,name searchall]
 15.	Warmup:search all
-16.	Space20
+16.	Space20 [done, put %20 instead of space]
 17.	Tokenisation (sstream)
 18.	Tokenisation (Strtok)
 19.	Design owner tokenizer
