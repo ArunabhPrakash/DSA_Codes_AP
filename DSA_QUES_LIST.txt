@@ -96,10 +96,9 @@ MS=my sol folder
 22.	Sort subsequences-[63]
 23.	Digital Clock
 24.	Biggest Number String-[63]
-25.	Run length encoding
-26.	Palindrome Break-[64]
-27.	String Normalisation
-28. 	Optimal Partition of string - (LC medium-gorseet)[done in new pg]
+25.	Palindrome Break-[64]
+26.	String Normalisation
+27. 	Optimal Partition of string - (LC medium-gorseet)[done in new pg]
 
 4.	2D Arrays
 
