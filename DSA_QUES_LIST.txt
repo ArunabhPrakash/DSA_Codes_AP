@@ -85,7 +85,7 @@ MS=my sol folder
 11.	Remove duplicates - [remove all duplic letters of string and keep only 1 copy,png:used sort,my:using hashmap o(n)]
 12.	Vowel Find [find vowels present in str,done]
 13.	Binary string to number [done]
-14.	Searching inside string
+14.	Searching inside string [done,name searchall]
 15.	Warmup:search all
 16.	Space20
 17.	Tokenisation (sstream)
