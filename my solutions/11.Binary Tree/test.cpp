@@ -3,12 +3,12 @@
 using namespace std;
 class Node{
 	public:
-		int data;
+		int val;
 		Node *left;
 		Node *right;
 		
 		Node(int d){
-			data =d;
+			val =d;
 			left=right=NULL;
 		}
 };
@@ -25,8 +25,8 @@ Node* buildTree(){//returns Node pointer like some func returns int, as unlike s
 	return n;
 }
 
- bool findTP(Node* root,int trgt,vector<Node*> &v){
-        if(root->data==trgt){
+ bool findTP(TreeNode* root,int trgt,vector<TreeNode*> &v){
+        if(root->val==trgt){
             v.push_back(root);
             return true;
         }
@@ -46,17 +46,17 @@ Node* buildTree(){//returns Node pointer like some func returns int, as unlike s
             return false;
         }
     }
-    Node* lowestCommonAncestor(Node* root, int p, int q) {
-        vector<Node*> v1,v2;
-        findTP(root,p,v1);
+    Node* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        vector<TreeNode*> v1,v2;
+        findTP(root,p->val,v1);
         findTP(root,q,v2);
         int i=0;
         int j=0;
         Node* lca=NULL;
         while(i<v1.size() and j<v2.size()){
-            if(v1[i]->data == v2[i]->data){
+            if(v1[i]->val == v2[i]->val){
                 lca=v1[i];
-                cout<<"\ndata"<<v1[i]->data;
+                cout<<"\nval"<<v1[i]->val;
             }
             i++;
             j++;
@@ -67,5 +67,5 @@ Node* buildTree(){//returns Node pointer like some func returns int, as unlike s
     int main(){
     	Node* root = buildTree();
     	Node* temp = lowestCommonAncestor(root,5,4);
-    	cout<<temp<<" "<<temp->data;
+    	cout<<temp<<" "<<temp->val;
 	}
