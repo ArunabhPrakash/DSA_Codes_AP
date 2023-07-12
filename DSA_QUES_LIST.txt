@@ -80,7 +80,7 @@ MS=my sol folder
 6.	Check Palindrome-[64]
 7.	String class
 8.	String compression-[11]
-9.	Run length encoding
+9.	Run length encoding - [same as str compression]
 10.	Permutation
 11.	Remove duplicates
 12.	Vowel Find
