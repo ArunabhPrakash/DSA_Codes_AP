@@ -110,7 +110,7 @@ MS=my sol folder
 6.	Mango trees-[12]
 7.	Pascal’s triangle - [66]
 8.	Submatrix sum - [67]
-9.  2d array merge - [69]
+9.  	2d array merge - [69]
 
 5.	Pointers and dynamic Memory [done earlier]
 
@@ -290,6 +290,7 @@ MS=my sol folder
 27. 	Sum root to leaf (LC medium- Gorseet)
 28. 	Node left oright sibling (ankush bhaiya)
 29.	Lowest Common Ancestor (LC medium - jagriti)
+3o.	Path sum 3(brute and optimised, LC medium - jagriti)
 
 
 14.	BST
