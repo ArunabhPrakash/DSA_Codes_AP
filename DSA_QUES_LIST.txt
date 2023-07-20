@@ -188,10 +188,10 @@ MS=my sol folder
 28.	Word break - [73]
 29.	Unique subset-
 30.	Word search
-31. Finding Subsets-[25]
-32. Ordering subsets-[26],just sort above
-33. Permutations-[26,75]
-34. Array filling-[25]
+31. 	Finding Subsets-[25]
+32. 	Ordering subsets-[26],just sort above
+33. 	Permutations-[26,75]
+34. 	Array filling-[25]
 
 9.	Space and time complexity analysis [done earlier]
 
