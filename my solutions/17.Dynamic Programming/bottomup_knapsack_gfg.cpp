@@ -1,52 +1,34 @@
-// A dynamic programming based
-// solution for 0-1 Knapsack problem
-#include <bits/stdc++.h>
-using namespace std;
+int BUK(vector<int> &wts,vector<int> &vals,int w,int n){//bottomup also in original knapsack code
 
-// A utility function that returns
-// maximum of two integers
-int max(int a, int b)
-{
-	return (a > b) ? a : b;
-}
-
-// Returns the maximum value that
-// can be put in a knapsack of capacity W
-int knapSack(int W, int wt[], int val[], int n)
-{
-	int i, w;
-	vector<vector<int>> K(n + 1, vector<int>(W + 1));
-
-	// Build table K[][] in bottom up manner
-	for(i = 0; i <= n; i++)
-	{
-		for(w = 0; w <= W; w++)
-		{
-			if (i == 0 || w == 0)//if 0 weight or 0 element then prices are also 0: same as subset sum wrote this concept myself in copy
-				K[i][w] = 0;
-			else if (wt[i - 1] <= w)//if weight of ith item is less than total weight then you can either take it or not using max
-				K[i][w] = max(val[i - 1] +//in susbset sum all these conditions just form "true"
-								K[i - 1][w - wt[i - 1]],
-								K[i - 1][w]);
-			else
-				K[i][w] = K[i - 1][w];//if weight is more then total weight then just copy the val of last item without including this one
+	vector<vector<int>> dp( wts.size(), vector<int> (w+1, 0));
+	for(int i=0;i<wts.size();i++){
+		for(int j=0;j<=w;j++){
+			if(wts[i]<=j){
+				if(i==0){
+				dp[i][j]=max(dp[i][j],vals[i]);
+				}
+				else{
+				dp[i][j]=max(max(dp[i][j],vals[i]+dp[i-1][j-wts[i]]),dp[i-1][j]);	
+				}
+				
+			}
+			else{
+				if(i==0){
+					dp[i][j]=0;
+				}
+				else{
+				dp[i][j]=dp[i-1][j];	
+				}
+				
+			}
 		}
 	}
-	return K[n][W];
+
+	return dp[n][w];
 }
-
-// Driver Code
-int main()
-{
-	int val[] = { 60, 100, 120 };
-	int wt[] = { 10, 20, 30 };
-	int W = 50;
-	int n = sizeof(val) / sizeof(val[0]);
-	
-	cout << knapSack(W, wt, val, n);
-	
-	return 0;
+int main(){
+	vector<int> wts = {2,7,3,4};
+	vector<int> val = {5,20,20,10};
+	int w=11;
+	cout<<BUK(wts,val,w,wts.size()-1);
 }
-
-// This code is contributed by Debojyoti Mandal
-

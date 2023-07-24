@@ -20,9 +20,23 @@ int minNumberofCoinsForChange(int m,vector<int> denoms){
 	return dp[m]==INT_MAX? -1: dp[m];
 	
 }
-
+int BUM(vector<int> &denom,int target){//bottom up
+	vector<int> dp (target+1,-1);
+	dp[0]=0;
+	for(int i=1;i<=target;i++){
+		int fV= INT_MAX;
+		for(int j=0;j<denom.size();j++){
+			if(denom[j]<=i){
+				fV=min(fV,1+dp[i-denom[j]]);
+			}
+		}
+		dp[i]=fV;
+		cout<<dp[i]<<" ";
+	}
+	return dp[target];
+}
 int main(){
 	vector<int> denoms = {1,5,7,10};
-	int m=16;
+	int m=15;
 	cout<<minNumberofCoinsForChange(m,denoms);
 }
