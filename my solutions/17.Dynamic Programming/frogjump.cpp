@@ -3,11 +3,14 @@
 #include<cmath>
 using namespace std;
 
-int frogjump(vector<int> &arr,int n,vector<int> &dp){
+int frogjump(vector<int> &arr,int n,vector<int> &dp){//topdown
 	if(n==arr.size()-1){
 		return dp[n];
 	}
 	else{
+		if(dp[n]!=-1){
+			return dp[n];
+		}
 		int jp1=INT_MAX;
 		int jp2=INT_MAX;
 		if(n+1<=arr.size()-1){
@@ -20,7 +23,7 @@ int frogjump(vector<int> &arr,int n,vector<int> &dp){
 	}
 }
 
-int BUFJ(vector<int> &arr){
+int BUFJ(vector<int> &arr){//bottomup
 	vector<int> dp (arr.size(),-1);
 	dp[arr.size()-1]=0;
 
