@@ -2,7 +2,7 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-class Box{
+class Box{//working in general, dont know sort on which basis
 	public:
 		int w;
 		int d;
