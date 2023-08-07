@@ -275,7 +275,7 @@ MS=my sol folder
 11.	Tree Diameter 1-[40]
 12.	Tree diameter 2-[40]
 13.	Min depth
-14.	Symmetric tree-1 
+14.	Symmetric tree-1 (using stack or queue)
 15.	Symmetric tree-2 (using my approach: horizontal and vertical height)(Ankush bhaiya)
 16.	Expression tree
 17.	Remove half nodes
