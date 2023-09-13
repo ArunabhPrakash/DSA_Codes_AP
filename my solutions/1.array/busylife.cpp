@@ -11,7 +11,7 @@ int countActivities(vector<pair<int,int> > activities){
     for(int i=0;i<activities.size();i++){
     	cout<<activities[i].first<<","<<activities[i].second<<" ";
 	}
-	sort(activities.begin(),activities.end(),sortbysec);
+	sort(activities.begin(),activities.end(),sortbysec);//callbackfunction
 	cout<<"after sort\n";
 	 for(int i=0;i<activities.size();i++){
     	cout<<activities[i].first<<","<<activities[i].second<<" ";
@@ -20,9 +20,11 @@ int countActivities(vector<pair<int,int> > activities){
     pair<int,int> lastact;
     lastact.first=activities[0].first;
     lastact.second=activities[0].second;
+    cout<<"\n"<<activities[0].first<<","<<activities[0].second<<" ";
     for(int i=1;i<activities.size();i++){
         if(activities[i].first>=lastact.second){
             count++;
+            cout<<activities[i].first<<","<<activities[i].second<<" ";
             lastact.first=activities[i].first;
             lastact.second=activities[i].second;
         }
